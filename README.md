@@ -6,6 +6,8 @@
 
 Blueprint and manual for modular ship Welder for the game Starbase by Frozenbyte.
 
+Check out various other free blueprints for Starbase [here](https://github.com/vinteo/starbase-ships).
+
 ## License
 
 This work is licensed under a
