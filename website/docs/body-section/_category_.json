@@ -1,0 +1,8 @@
+{
+  "label": "Body Section",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "The body section of the ship and its modules."
+  }
+}
