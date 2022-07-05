@@ -2,46 +2,15 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The goal of the Welder ship is to be a modular ship which can be snapped together using modules in the Starbase Ship Designer and welded together with minial additional changes.
+It is a ship framework that has a restricted shape so the modules are easy to use and include on the ship.
 
-## Getting Started
+The Welder framework consist of three major sections - the front, the back and the body.
 
-Get started by **creating a new site**.
+The front and back sections have a fixed module that houses essential machinery and devices for the basic functions of the the ship.
+Smaller modules can be attached to various points of these fixed modules.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The body section is put together by welding together a series of modules. These modules will extend the functionality of the ship.
+The with of the body can vary depending on the modules used.
