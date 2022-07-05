@@ -3,8 +3,11 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![Linting](https://github.com/vinteo/starbase-ship-welder/workflows/Linting/badge.svg)
 ![YOLOL](https://github.com/vinteo/starbase-ship-welder/workflows/YOLOL/badge.svg)
+[![Documentation](https://github.com/vinteo/starbase-ship-welder/actions/workflows/deploy.yml/badge.svg)](https://github.com/vinteo/starbase-ship-welder/actions/workflows/deploy.yml)
 
 Blueprint and manual for modular ship Welder for the game Starbase by Frozenbyte.
+
+Documentation is available [here](https://vinteo.github.io/starbase-ship-welder/).
 
 Check out various other free blueprints for Starbase [here](https://github.com/vinteo/starbase-ships).
 
