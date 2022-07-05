@@ -1,0 +1,21 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/starbase-ship-welder/blog/welcome"
+    },
+    {
+      "title": "MDX Blog Post",
+      "permalink": "/starbase-ship-welder/blog/mdx-blog-post"
+    },
+    {
+      "title": "Long Blog Post",
+      "permalink": "/starbase-ship-welder/blog/long-blog-post"
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/starbase-ship-welder/blog/first-blog-post"
+    }
+  ]
+}
