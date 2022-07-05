@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4759],{897:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/starbase-ship-welder/blog/tags/facebook","allTagsPath":"/starbase-ship-welder/blog/tags","count":1}')}}]);

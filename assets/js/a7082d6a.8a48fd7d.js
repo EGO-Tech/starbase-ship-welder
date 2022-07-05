@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5673],{9217:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/starbase-ship-welder/blog/tags/docusaurus","allTagsPath":"/starbase-ship-welder/blog/tags","count":4}')}}]);
