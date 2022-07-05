@@ -9,7 +9,12 @@ The body section is put together by welding together a series of modules of diff
 ## Module Sizes
 
 The size of the modules are measured using units of 144cm (known as U).
-Strictly speaking though these are not always exactly 144cm as there are some additinal space used for 24cm beams depending on the module.
+
+:::note
+
+Strictly speaking though one U is not always exactly 144cm as there are some additinal space used for 24cm beams depending on the module.
+
+:::
 
 The width (sideways in relation to the ship) of the body modules come in two different sizes - 4U and 8U.
 
@@ -26,6 +31,13 @@ The total width of the body can be 4U and 8U. There are restrictions in place to
 The body then can be covered using hull modules that go on the side as well as top and bottom to complete the body.
 
 There is no limit to the length of the body except that you will probably hit some game limits, plus the ship will get slower and slower.
+
+:::info Body Height
+
+The intention is to keep the main body at a fixed height of 4U with the current modules,
+although it is possible to extend it with custom modules.
+
+:::
 
 ## Connecting to the Back and Front Sections
 
