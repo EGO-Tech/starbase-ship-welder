@@ -1,42 +1,42 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Welder - Modular Ship for Starbase",
+  title: 'Welder - Modular Ship for Starbase',
   tagline:
-    "Blueprint and manual for modular ship Welder for the game Starbase by Frozenbyte",
-  url: "https://vinteo.github.io/",
-  baseUrl: "/starbase-ship-welder/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+    'Blueprint and manual for modular ship Welder for the game Starbase by Frozenbyte',
+  url: 'https://vinteo.github.io/',
+  baseUrl: '/starbase-ship-welder/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
   trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // projectName: "vinteo.github.io",
-  // organizationName: "vinteo",
-  // deploymentBranch: "main",
+  projectName: 'starbase-ship-welder',
+  organizationName: 'vinteo',
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -44,7 +44,7 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -54,43 +54,43 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Home",
+        title: 'Home',
         // logo: {
         //   alt: "My Site Logo",
         //   src: "img/logo.svg",
         // },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Manual",
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Manual',
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/vinteo/starbase-ship-welder",
-            label: "GitHub",
-            position: "right",
+            href: 'https://github.com/vinteo/starbase-ship-welder',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Docs",
+            title: 'Docs',
             items: [
               {
-                label: "Manual",
-                to: "/docs/intro",
+                label: 'Manual',
+                to: '/docs/intro',
               },
               {
-                label: "GitHub",
-                href: "https://github.com/vinteo/starbase-ship-welder",
+                label: 'GitHub',
+                href: 'https://github.com/vinteo/starbase-ship-welder',
               },
               {
-                label: "License",
-                href: "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+                label: 'License',
+                href: 'http://creativecommons.org/licenses/by-nc-sa/4.0/',
               },
             ],
           },
@@ -112,11 +112,11 @@ const config = {
           //   ],
           // },
           {
-            title: "More",
+            title: 'More',
             items: [
               {
-                label: "FREE Ship Blueprints",
-                href: "https://github.com/vinteo/starbase-ships",
+                label: 'FREE Ship Blueprints',
+                href: 'https://github.com/vinteo/starbase-ships',
               },
             ],
           },
