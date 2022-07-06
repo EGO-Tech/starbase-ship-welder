@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Hull Modules
 
-Basic modules consist of module that cover the main body with plates.
+Basic modules consist of modules that cover the main body with plates.
 
 ## Top/Bottom Cover Modules
 
@@ -31,14 +31,28 @@ _Fig: Body 4U S Side Cover Module_
 
 ## Side Window Modules
 
-The side window modules are similar to the cover modules except they have windows. Rotate the module to use between the two sides of the body
+The side window modules are similar to the cover modules except they have glass windows. Rotate the module to use between the two sides of the body
 and connect in a row to cover the body lengthwise. They can be used in conjunction with the cover modules.
 
 ![Body 4U S Side Window (Small) Module](./img/body_4U_S_side_window_small.png)
-![Body 4U S Side Window (Large)](./img/body_4U_S_side_window_large.png)
+![Body 4U S Side Window (Large) Module](./img/body_4U_S_side_window_large.png)
 
 _Fig: Body 4U S Side Window Modules_
 
 **Available Sizes:** 4U S
 
 **Variants:** Small, Large
+
+## Side Door Modules
+
+The side door modules provide powered ramp doors for access into the ship body.
+They have port and starboard side variants and can be used in conjunction with the cover modules.
+
+![Body 4U M Side Door Module](./img/body_4U_M_side_door_1.png)
+![Body 4U M Side Door Module](./img/body_4U_M_side_door_2.png)
+
+_Fig: Body 4U M Side Door Module_
+
+**Available Sizes:** 4U S, 4U M, 4U L, 4U XL
+
+**Variants:** Port, Starboard
