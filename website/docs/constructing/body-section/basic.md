@@ -19,7 +19,7 @@ _Fig: Body 4U S Shell Module_
 
 ## Empty Modules
 
-Empty modules are the same as shell modules except the come with Ajatite thin floor plates for flooring.
+Empty modules are the same as shell modules except they come with Ajatite thin floor plates for flooring.
 
 **Available Sizes:** 4U S, 4U M, 4U L, 4U XL, 8U S, 8U M, 8U L, 8U XL
 
