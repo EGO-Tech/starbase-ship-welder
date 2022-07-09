@@ -28,7 +28,15 @@ The total width of the body can be 4U and 8U. There are restrictions in place to
 
 8U bodies can be put together either using one 8U module or using two 4U modules.
 
-The body then can be covered using hull modules that go on the side as well as top and bottom to complete the body.
+![Two 4U Modules make a 8U Module](./img/body_2x4U.png)
+
+_Fig: Two 4U Modules make a 8U Module_
+
+The body then can be covered using [hull modules](./body-section/hull) that go on the side as well as top and bottom to complete the body.
+
+![Body covered with Hull Modules](./img/body_2x4U_hull.png)
+
+_Fig: Body covered with Hull Modules_
 
 There is no limit to the length of the body except that you will probably hit some game limits, plus the ship will get slower and slower.
 
@@ -42,4 +50,8 @@ although it is possible to extend it with custom modules.
 ## Connecting to the Back and Front Sections
 
 The back and front section have connections for up to 8U in wdith.
-If your body is less that 8U, there are adapter hull modules that can be used to bridge the gap.
+If your body is less that 8U, there is the [adapter hull module](./body-section/hull#side-adapter-module) that can be used to bridge the gap.
+
+![Using Hull Adapter Module](./img/body_using_adapter.png)
+
+_Fig: Using Hull Adapter Module_
