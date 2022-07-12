@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Constructing the Back
 
-The back section houses the rear thrusters (including double five ring plasma thrusters), half the maneuver thrusters, propellant and batteries.
+The back section houses the rear thrusters (including double five ring plasma thrusters), half the maneuver thrusters, four of the navigation receivers, propellant and batteries.
 
 ![Ship Back Section](./img/back_1.png)
 ![Ship Back Section](./img/back_2.png)
