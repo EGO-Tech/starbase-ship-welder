@@ -1,0 +1,1 @@
+if:av*:canopy then:avoidance=0 :nav=0 :autopilot=0end goto1

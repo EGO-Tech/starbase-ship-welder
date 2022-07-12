@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/starbase-ship-welder/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
   trailingSlash: false,
 
   // GitHub pages deployment config.
