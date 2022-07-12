@@ -10,7 +10,7 @@ Not all are used by the ship.
 | Variable | Description | Default |Modules | Readonly? | Used? | Mapped To | Mapped From |
 |---|---|---|---|---|---|---|---|
 | `A` | Signal strength of back receiver for NavGrid | - | [Base (Back)](./constructing/back-section/) | Y | Y | - | - |
-| `Aim` | Aim activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Aim` | Aim activation | 8 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Alarm` | Avoidance alarm activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AlarmOn` | Avoidance alarm activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AT` | Target message of back receiver for NavGrid | - | [Base (Back)](./constructing/back-section/) | N | Y | - | - |
