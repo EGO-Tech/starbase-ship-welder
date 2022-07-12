@@ -66,6 +66,11 @@ const config = {
             position: 'left',
             label: 'Manual',
           },
+          {
+            to: '/ships',
+            position: 'left',
+            label: 'Ships',
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: 'https://github.com/vinteo/starbase-ship-welder',
