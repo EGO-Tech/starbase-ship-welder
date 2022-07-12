@@ -71,6 +71,10 @@ const config = {
             position: 'left',
             label: 'Ships',
           },
+          {
+            to: 'https://github.com/vinteo/starbase-ship-welder/raw/main/blueprints/framework/welder.zip',
+            label: 'Download',
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: 'https://github.com/vinteo/starbase-ship-welder',

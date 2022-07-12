@@ -13,7 +13,9 @@ It is a ship framework that has a restricted shape so the modules are easy to us
 
 The provided modules are meant to be a guide and provide basic examples of how modules work. It is the hope that the community will build more modules to share.
 
-The blueprints for the ship and its modules are provided for free. Take a look at some prebuilt ships [here](/ships).
+## Download
+
+The blueprints for the ship and its modules are provided for free. Download the modules [here](https://github.com/vinteo/starbase-ship-welder/raw/main/blueprints/framework/welder.zip) or take a look at some prebuilt ships [here](/ships).
 
 ## Features
 
