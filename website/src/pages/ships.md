@@ -25,3 +25,14 @@ It has extra propellant from the base ship and windows on each side.
 Current Version: v1.0.0
 
 [Detailed information and blueprint download](./ships/ex808)
+
+## Welder TP412
+
+<img src="./photos/tp412/20220713151817_1.jpg" width="800" />
+
+The Welder TP412 is a passenger ship with seats for 32 endos.
+It has extra propellant from the base ship and large windows on each side.
+
+Current Version: v1.0.0
+
+[Detailed information and blueprint download](./ships/tp412)
