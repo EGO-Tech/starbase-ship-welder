@@ -61,6 +61,19 @@ _Fig: Body 4U M Side Door Module_
 
 **Variants:** Port, Starboard
 
+:::info Adding Additional Buttons
+
+For any additional buttons you would like to add to the ship for these doors, use the following values.
+
+| Original Field Name | New Field Name | Value |
+|---|---|---|
+| `ButtonState` | `Port` or `Starboard` | 0 |
+| `ButtonOnStateValue` | - | 1 |
+| `ButtonOffStateValue` | - | 0 |
+| `ButtonStyle` | - | 1 |
+
+:::
+
 ## Side Adapter Module
 
 The side adapter module allow 4U width bodies to connect to the back and front sections of the ship.
