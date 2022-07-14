@@ -33,6 +33,16 @@ The `Propellant` display in the cockpit should automtically update with the full
 
 :::
 
+## Fuel Module
+
+The fuel module provides extra fuel rods on racks. It will add 36 T2 fuel rods for each module used.
+
+![Body 4U S Fuel Module](./img/body_4U_S_fuel.png)
+
+_Fig: Body 4U S Fuel Module_
+
+**Available Sizes:** 4U S
+
 ## Nav Logger Module
 
 The nav logger module provides a navigation logger to the ship.
@@ -42,3 +52,13 @@ The nav logger module provides a navigation logger to the ship.
 _Fig: Body 8U XL Nav Logger Module_
 
 **Available Sizes:** 8U XL
+
+## Seats Module
+
+The seats module provides seats for passengers with space for walking in between. It will add eight seats for each module used.
+
+![Body 4U S Seats Module](./img/body_4U_S_seats.png)
+
+_Fig: Body 4U S Seats Module_
+
+**Available Sizes:** 4U S

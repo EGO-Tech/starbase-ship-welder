@@ -26,6 +26,17 @@ Current Version: v1.0.0
 
 [Detailed information and blueprint download](./ships/ex808)
 
+## Welder TK810
+
+<img src="./photos/tk810/20220714161050_1.jpg" width="800" />
+
+The Welder TK810 is a supply or tanker ship with a a supply of propellant and T2 fuel rods.
+It also has crafting benches and 64 ore crates for storage.
+
+Current Version: v1.0.0
+
+[Detailed information and blueprint download](./ships/tk810)
+
 ## Welder TP412
 
 <img src="./photos/tp412/20220713151817_1.jpg" width="800" />

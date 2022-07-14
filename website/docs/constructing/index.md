@@ -23,6 +23,7 @@ Once all the sections are connected together with the additional modules you wis
 
 :::tip
 
-It is recommended to construct the ship from back to front.
+For modularity and ease of use, there is a lot of redundant ducting used in the modules. So if you run into the duct, cable and pipe limit,
+feel free to remove some of the redundant ducts that are not needed in your build from the modules.
 
 :::
