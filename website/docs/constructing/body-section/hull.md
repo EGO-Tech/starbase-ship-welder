@@ -11,16 +11,21 @@ Basic modules consist of modules that cover the main body with plates.
 The top/bottom cover modules cover the top and bottom of the body with plates. Rotate the module to use between the top and bottom
 and connect in a row to cover the body lengthwise.
 
+The end variant is used at the ends of the body section.
+
 ![Body 4U S Top/Bottom Cover Module](./img/body_4U_S_top_bottom_cover.png)
 
 _Fig: Body 4U S Top/Bottom Cover Module_
 
 **Available Sizes:** 4U S, 8U S
 
+**Variants:** Normal, End (8U only)
+
 ## Side Cover Modules
 
 The side cover modules cover the sides of the body with plates. Rotate the module to use between the two sides of the body
 and connect in a row to cover the body lengthwise. They can be used in conjunction with the other hull modules.
+
 The end variant is used at the ends of the body section.
 
 ![Body 4U S Side Cover Module](./img/body_4U_S_side_cover_1.png)

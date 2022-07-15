@@ -41,6 +41,16 @@ The base ship has the following features:
 - Timer panel
 - Odometer panel
 
+## Providing Feedback
+
+I can be found in-game as Egomaniac and on discord as vinteo#4211.
+
+Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/vinteo/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
+
+I would also love for the communiity to create modules so if you do please share them!
+
+Of course in-game tips are greatly appreciated.
+
 ## License
 
 This work is licensed under a

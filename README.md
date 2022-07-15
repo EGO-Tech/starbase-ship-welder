@@ -11,6 +11,16 @@ Documentation is available [here](https://vinteo.github.io/starbase-ship-welder/
 
 Check out various other free blueprints for Starbase [here](https://github.com/vinteo/starbase-ships).
 
+## Providing Feedback
+
+I can be found in-game as Egomaniac and on discord as vinteo#4211.
+
+Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/vinteo/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
+
+I would also love for the communiity to create modules so if you do please share them!
+
+Of course in-game tips are greatly appreciated.
+
 ## License
 
 This work is licensed under a

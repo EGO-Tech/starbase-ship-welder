@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.0.3 - 15/07/2022
+
+- Added Back Top/Bottom End Tow v1.0.0 module
+- Added Body 4U S Generators v1.0.0 module
+- Added Body 8U Top Bottom S Cover (End) v1.0.0 module
+- Added Body 8U L Cage v1.0.0 module
+- Added Body 8U XL Cage v1.0.0 module
+- Updated to Body Side S Adapter v1.0.1
+  - Added missing small plate
+
 ## v1.0.2 - 14/07/2022
 
 - Added Body 4U S Fuel v1.0.0 module
