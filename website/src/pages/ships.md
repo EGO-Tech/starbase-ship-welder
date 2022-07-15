@@ -26,6 +26,16 @@ Current Version: v1.0.0
 
 [Detailed information and blueprint download](./ships/ex808)
 
+## Welder HL820
+
+<img src="./photos/hl820/20220715214433_1.jpg" width="800" />
+
+The Welder HL820 is a simple hauler with 640 ore crates.
+
+Current Version: v1.0.0
+
+[Detailed information and blueprint download](./ships/hl820)
+
 ## Welder SV812
 
 <img src="./photos/sv812/20220715182720_1.jpg" width="800" />
