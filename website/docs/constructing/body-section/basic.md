@@ -26,3 +26,13 @@ Empty modules are the same as shell modules except they come with Ajatite thin f
 _Fig: Body 4U S Empty Module_
 
 **Available Sizes:** 4U S, 4U M, 4U L, 4U XL, 8U S, 8U M, 8U L, 8U XL
+
+## Cage Modules
+
+Cage modules are the same as shell modules except they come with extra beams to bolt item on.
+
+![Body 8U L Cage Module](./img/body_8U_L_cage.png)
+
+_Fig: Body 8U L Cage Module_
+
+**Available Sizes:** 8U L, 8U XL

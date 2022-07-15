@@ -43,6 +43,31 @@ _Fig: Body 4U S Fuel Module_
 
 **Available Sizes:** 4U S
 
+## Generators Module
+
+The generator module provides six extra T3 fuel chambers supporting 18 additional T3 generator units with a T2 enhancer each.
+It also has additional heat sinks and the base ship has enough radiators to support use of a single generators module.
+
+:::info Additional Installation Steps
+
+This module comes with a yolol rack and an memory relay that needs to be installed.
+For more information see the instructions [here](../advanced#installing-additional-yolol-racks-or-memory-relays).
+
+:::
+
+![Body 4U S Generators Module](./img/body_4U_S_generators.png)
+
+_Fig: Body 4U S Generators Module_
+
+**Available Sizes:** 4U S
+
+:::caution
+
+Only a single generators module can be used without making manual changes.
+Any additional generators modules will also require extra radiators.
+
+:::
+
 ## Nav Logger Module
 
 The nav logger module provides a navigation logger to the ship.

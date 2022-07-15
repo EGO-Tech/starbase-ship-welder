@@ -14,7 +14,9 @@ Not all are used by the ship.
 | `Alarm` | Avoidance alarm activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AlarmOn` | Avoidance alarm activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AT` | Target message of back receiver for NavGrid | - | [Base (Back)](./constructing/back-section/) | N | Y | - | - |
+| `AutoGen` | Tow beam autogen activation | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | `Auto Gen` | - |
 | `AutoPilot` | Auto pilot system (NavCas) activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Auto Gen` | Tow beam autogen activation | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | `AutoGen` |
 | `AD` | Avoidance system downwards flag | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AU` | Avoidance system upwards flag | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AV` | Avoidance system activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Avoidance` |
@@ -44,6 +46,7 @@ Not all are used by the ship.
 | `EY` | ISAN 3 in 1 back receiver Y coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `EZ` | ISAN 3 in 1 back receiver Z coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `F1` to `F10` | Current fuel in individual fuel chambers. | - | [Base (Front)](./constructing/front-section/) | Y | Y | `Fuel Rod 1` to `Fuel Rod 10` | - |
+| `F11` to `F16` | Current fuel in individual fuel chambers. | - | [Body Generators](./constructing/body-section/utility#generators-module) | Y | Y | `Fuel Rod 11` to `Fuel Rod 16` | - |
 | `FCW` | Fuel time chip wait | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `ForwardThrust` | Current thrust of rear thrusters (maximum of 10,0000), set on all rear thruster groups | - | [Base (Back)](./constructing/back-section/) | Y | Y | - | - |
 | `Front1` to `Front8` | Thruster group names of front thrusters. Set in main flight computer. | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
@@ -57,12 +60,13 @@ Not all are used by the ship.
 | `Fuel` | Current total fuel in all fuel chambers. | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | - |
 | `FuelTime` | Fuel time display | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Fuel Rod 1` to `Fuel Rod 10` | Current fuel in individual fuel chambers. | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | `F1` to `F10` |
+| `Fuel Rod 11` to `Fuel Rod 16` | Current fuel in individual fuel chambers. | - | [Body Generators](./constructing/body-section/utility#generators-module) | Y | Y | - | `F11` to `F16` |
 | `FX` | ISAN 3 in 1 front receiver X coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `FY` | ISAN 3 in 1 front receiver Y coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `FZ` | ISAN 3 in 1 front receiver Z coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `GD` | Guide lasers activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Guide` |
-| `Generator` | Current generator rate of generators | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | - |
-| `GenRate` | Generator rate limit of generators | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Generator` | Current generator rate of generators | - | [Base (Front)](./constructing/front-section/), [Body Generators](./constructing/body-section/utility#generators-module)  | Y | Y | - | - |
+| `GenRate` | Generator rate limit of generators | - | [Base (Front)](./constructing/front-section/), [Body Generators](./constructing/body-section/utility#generators-module)  | N | Y | - | - |
 | `Guide` | Guide lasers activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | `GD` | - |
 | `GX` | ISAN 3 in 1 bottom receiver X coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `GY` | ISAN 3 in 1 bottom receiver Y coordinate | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
@@ -79,6 +83,7 @@ Not all are used by the ship.
 | `L1` to `L9` | Current left guide laser distances | 1000 | [Base (Front)](./constructing/front-section/) | Y | Y | - | - |
 | `LAV` | Avoidance lifetime count | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Load_AP` | Auto pilot target load activation | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Mass` | Tow beam locked mass | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | `Tow Mass` | - |
 | `MaxPropellant` | Maximum propellant in the ship's network | - | [Base (Back)](./constructing/back-section/), [Body Propellant](./constructing/body-section/utility#propellant-modules), [Back Inner Propellant](./constructing/back-section/inner#back-inner-propellant-module) | Y | Y | - | - |
 | `MBR` | Maximum number of backup rods | 20 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `MD` | Current distance value of range laser | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | `Distance` |
@@ -87,6 +92,8 @@ Not all are used by the ship.
 | `Min_EPS` | Minimum generator rate activation and button | 0 | [Base (Front)](./constructing/front-section/) | N | Y | `Min Gen` | - |
 | `Min Gen` | Minimum generator rate activation and button | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Min_EPS` |
 | `Min Generator Limit` | Minimum generator rate if `Min Gen` is activated | 50 | [Base (Front)](./constructing/front-section/) | N | Y | - | `MinEPS` |
+| `MM` | Tow beam maximum mass in kilotons | 10 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
+| `MMK` | Tow beam maximum mass in kilograms | 10000000 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
 | `MR` | Range laser activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Range` |
 | `Nav` | Auto pilot system (NavCas) auto direction activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `NavC` | NavGrid display | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
@@ -137,7 +144,7 @@ Not all are used by the ship.
 | `Sense2` | Sensitivity rate for lever minimum value | -100 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Sensitivity` | Sensitivity rate | 20 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Sense` |
 | `Service` | Service door activation, hinges and buttons | 0 | [Base (Back)](./constructing/back-section/) | N | Y | - | - |
-| `Shutdown` | Fuel chamber rate limit | 100 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Shutdown` | Fuel chamber rate limit | 100 | [Base (Front)](./constructing/front-section/), [Body Generators](./constructing/body-section/utility#generators-module)  | N | Y | - | - |
 | `Sloth` | Sloth activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Sp` | Current speed from speedometer | - | [Base (Front)](./constructing/front-section/) | Y | Y | `Speed` | - |
 | `Speed` | Current speed from speedometer | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | `Sp` |
@@ -151,6 +158,11 @@ Not all are used by the ship.
 | `TAV` | Avoidance trip count | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `tHdg` | NavGrid heading value | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Timer` | Timer display | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `totalFuelChip` | Total fuel chip wait | - | [Body Generators](./constructing/body-section/utility#generators-module) | N | Y | `Total Fuel` | - |
+| `Tow` | Tow beam activation | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
+| `TowStatus` | Tow beam status | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | `Tow Status` | - |
+| `Tow Mass` | Tow beam locked mass | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | - | `Mass` |
+| `Tow Status` | Tow beam status | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | - | `TowStatus` |
 | `tPit` | NavGrid pitch value | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `TRS` | Turtle rate switch value | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `TS` | Timer value in seconds | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |

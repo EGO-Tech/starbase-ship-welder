@@ -26,6 +26,17 @@ Current Version: v1.0.0
 
 [Detailed information and blueprint download](./ships/ex808)
 
+## Welder SV812
+
+<img src="./photos/sv812/20220715182720_1.jpg" width="800" />
+
+The Welder SV812 is a salvager ship with a tow beam that is capable of towing a ship up to 16,000,000kg in mass.
+It also has crafting benches, 32 ore crates for storage and a cage area in its body to bolts parts on plus bay door access on each side.
+
+Current Version: v1.0.0
+
+[Detailed information and blueprint download](./ships/sv812)
+
 ## Welder TK810
 
 <img src="./photos/tk810/20220714161050_1.jpg" width="800" />
