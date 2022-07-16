@@ -8,8 +8,8 @@ This site houses the blueprints and manual for modular ship Welder for the game 
 
 ## Goal
 
-The goal of the Welder ship is to be a modular ship which can be snapped together using modules in the Starbase Ship Designer and welded together with minial additional changes.
-It is a ship framework that has a restricted shape so the modules are easy to use and include on the ship.
+The goal of the Welder ship framework is to have a base ship which has connection points to snap additional modules and welded together with minimal additional changes to make a working ship, all in the Starbase Ship Designer.
+The framework has a restricted shape so the modules are easy to use and include to make the final ship.
 
 The provided modules are meant to be a guide and provide basic examples of how modules work. It is the hope that the community will build more modules to share.
 
