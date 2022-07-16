@@ -2,9 +2,9 @@
 hide_table_of_contents: true
 ---
 
-# Welder - Modular Ship for Starbase
+# Welder - Modular Ship Framework for Starbase
 
-This site houses the blueprints and manual for modular ship Welder for the game Starbase by Frozenbyte.
+This site houses the blueprints and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte.
 
 ## Goal
 

@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welder - Modular Ship for Starbase',
+  title: 'Welder - Modular Ship Framework for Starbase',
   tagline:
-    'Blueprint and manual for modular ship Welder for the game Starbase by Frozenbyte',
+    'Blueprint and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte',
   url: 'https://vinteo.github.io/',
   baseUrl: '/starbase-ship-welder/',
   onBrokenLinks: 'throw',
