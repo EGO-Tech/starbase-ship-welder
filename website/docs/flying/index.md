@@ -23,6 +23,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Guide` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
+| `Approach` | Activates approach, flies ship towards target of `Range` to within 15m. |
 | `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP` & `NavC` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |

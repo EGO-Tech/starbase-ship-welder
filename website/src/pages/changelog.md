@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.4 - 16/07/2022
+
+- Added Front Cockpit Collectors v1.0.0 module
+- Added Front Side Lasers v1.0.0 module
+- Updated to Front Base v1.0.2
+  - Added `Approach` function
+
 ## v1.0.3 - 15/07/2022
 
 - Added Back Top/Bottom End Tow v1.0.0 module
