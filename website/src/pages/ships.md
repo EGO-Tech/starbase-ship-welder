@@ -36,6 +36,16 @@ Current Version: v1.0.0
 
 [Detailed information and blueprint download](./ships/hl820)
 
+## Welder MN816
+
+<img src="./photos/mn816/20220716174855_1.jpg" width="800" />
+
+The Welder MN816 is a miner with four converging lasers and 512 ore crates.
+
+Current Version: v1.0.0
+
+[Detailed information and blueprint download](./ships/mn816)
+
 ## Welder SV812
 
 <img src="./photos/sv812/20220715182720_1.jpg" width="800" />

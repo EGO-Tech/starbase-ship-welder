@@ -13,10 +13,12 @@ Not all are used by the ship.
 | `Aim` | Aim activation | 8 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Alarm` | Avoidance alarm activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AlarmOn` | Avoidance alarm activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Ap` | Approach activation | 8 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Approach` |
+| `Approach` | Approach activation | 8 | [Base (Front)](./constructing/front-section/) | N | Y | `Ap` | - |
 | `AT` | Target message of back receiver for NavGrid | - | [Base (Back)](./constructing/back-section/) | N | Y | - | - |
-| `AutoGen` | Tow beam autogen activation | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | `Auto Gen` | - |
+| `AutoGen` | Tow beam autogen activation | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | `Auto Gen` | - |
 | `AutoPilot` | Auto pilot system (NavCas) activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
-| `Auto Gen` | Tow beam autogen activation | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | `AutoGen` |
+| `Auto Gen` | Tow beam autogen activation | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | `AutoGen` |
 | `AD` | Avoidance system downwards flag | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AU` | Avoidance system upwards flag | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `AV` | Avoidance system activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Avoidance` |
@@ -37,8 +39,9 @@ Not all are used by the ship.
 | `Canopy` | Cockpit canopy activation, hinges and buttons | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `CAS` | Avoidance and auto pilot activation flag | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Cruise` | Cruise activation | 10 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
+| `Collect` | Ore collectors activation | 0 | [Front Cockpit Collectors](./constructing/front-section/cockpit#front-cockpit-collectors-module) | N | Y | - | - |
 | `DD` | Auto pilot system (NavCas) debug display | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
-| `Distance` | Current distance value of range laser | - | [Base (Front)](./constructing/front-section/) | Y | Y | `MD` | - |
+| `Distance` | Current distance value of range laser | - | [Base (Front)](./constructing/front-section/) | Y | Y | `MD`, `M` | - |
 | `Door` | Door activation, hinges and buttons | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `E` | Signal strength of front receiver for NavGrid | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | - |
 | `ET` | Target message of front receiver for NavGrid | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
@@ -81,9 +84,13 @@ Not all are used by the ship.
 | `KG` | Signal strength of bottom receiver for ISAN 3 in 1 | - | [Base (Back)](./constructing/back-section/) | Y | Y | - | - |
 | `KT` | Target message for ISAN 3 in 1 | - | [Base (Back)](./constructing/back-section/), [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `L1` to `L9` | Current left guide laser distances | 1000 | [Base (Front)](./constructing/front-section/) | Y | Y | - | - |
+| `Lasers` | Mining lasers activation | 0 | [Front Cockpit Lasers](./constructing/front-section/side#front-side-lasers-module) | N | Y | - | - |
 | `LAV` | Avoidance lifetime count | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Load_AP` | Auto pilot target load activation | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
-| `Mass` | Tow beam locked mass | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | `Tow Mass` | - |
+| `LP1`, `LP2` | Mining lasers' pitch | 0 | [Front Cockpit Lasers](./constructing/front-section/side#front-side-lasers-module) | N | Y | - | - |
+| `LR1`, `LR2` | Mining lasers' rotation | 0 | [Front Cockpit Lasers](./constructing/front-section/side#front-side-lasers-module) | N | Y | - | - |
+| `M` | Current distance value of range laser | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | `Distance` |
+| `Mass` | Tow beam locked mass | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | `Tow Mass` | - |
 | `MaxPropellant` | Maximum propellant in the ship's network | - | [Base (Back)](./constructing/back-section/), [Body Propellant](./constructing/body-section/utility#propellant-modules), [Back Inner Propellant](./constructing/back-section/inner#back-inner-propellant-module) | Y | Y | - | - |
 | `MBR` | Maximum number of backup rods | 20 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `MD` | Current distance value of range laser | - | [Base (Front)](./constructing/front-section/) | Y | Y | - | `Distance` |
@@ -92,8 +99,8 @@ Not all are used by the ship.
 | `Min_EPS` | Minimum generator rate activation and button | 0 | [Base (Front)](./constructing/front-section/) | N | Y | `Min Gen` | - |
 | `Min Gen` | Minimum generator rate activation and button | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Min_EPS` |
 | `Min Generator Limit` | Minimum generator rate if `Min Gen` is activated | 50 | [Base (Front)](./constructing/front-section/) | N | Y | - | `MinEPS` |
-| `MM` | Tow beam maximum mass in kilotons | 10 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
-| `MMK` | Tow beam maximum mass in kilograms | 10000000 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
+| `MM` | Tow beam maximum mass in kilotons | 10 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
+| `MMK` | Tow beam maximum mass in kilograms | 10000000 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
 | `MR` | Range laser activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | `Range` |
 | `Nav` | Auto pilot system (NavCas) auto direction activation | 0 | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `NavC` | NavGrid display | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
@@ -159,10 +166,10 @@ Not all are used by the ship.
 | `tHdg` | NavGrid heading value | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `Timer` | Timer display | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `totalFuelChip` | Total fuel chip wait | - | [Body Generators](./constructing/body-section/utility#generators-module) | N | Y | `Total Fuel` | - |
-| `Tow` | Tow beam activation | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
-| `TowStatus` | Tow beam status | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | `Tow Status` | - |
-| `Tow Mass` | Tow beam locked mass | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | - | `Mass` |
-| `Tow Status` | Tow beam status | 0 | [Back Top/Bottom End (Tow)](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | - | `TowStatus` |
+| `Tow` | Tow beam activation | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | N | Y | - | - |
+| `TowStatus` | Tow beam status | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | `Tow Status` | - |
+| `Tow Mass` | Tow beam locked mass | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | - | `Mass` |
+| `Tow Status` | Tow beam status | 0 | [Back Top/Bottom End Tow](./constructing/back-section/top_bottom_end#back-topbottom-end-tow-module) | Y | Y | - | `TowStatus` |
 | `tPit` | NavGrid pitch value | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `TRS` | Turtle rate switch value | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
 | `TS` | Timer value in seconds | - | [Base (Front)](./constructing/front-section/) | N | Y | - | - |
