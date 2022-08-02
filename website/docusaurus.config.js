@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welder - Modular Ship Framework for Starbase',
+  title: 'Welder by EGOTech - Modular Ship Framework for Starbase',
   tagline:
     'Blueprint and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte',
   url: 'https://vinteo.github.io/',
@@ -55,10 +55,10 @@ const config = {
     ({
       navbar: {
         title: 'Home',
-        // logo: {
-        //   alt: "My Site Logo",
-        //   src: "img/logo.svg",
-        // },
+        logo: {
+          alt: 'EGOTech',
+          src: 'egotech/logos/egotech_logo_light_transparent.png',
+        },
         items: [
           {
             type: 'doc',
