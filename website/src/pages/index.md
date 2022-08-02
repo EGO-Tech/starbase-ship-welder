@@ -2,9 +2,9 @@
 hide_table_of_contents: true
 ---
 
-# Welder - Modular Ship Framework for Starbase
+# Welder by EGOTech - Modular Ship Framework for Starbase
 
-This site houses the blueprints and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte.
+This site houses the blueprints and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte. Designed by EGOTech.
 
 ## Goal
 
@@ -40,6 +40,10 @@ The base ship has the following features:
 - Speedometer
 - Timer panel
 - Odometer panel
+
+## Designed by EGOTech
+
+![EGOTech](../../static/egotech/logos/egotech_logo_light.png)
 
 ## Providing Feedback
 
