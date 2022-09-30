@@ -11,6 +11,8 @@ Documentation is available [here](https://vinteo.github.io/starbase-ship-welder/
 
 Check out various other free blueprints for Starbase [here](https://github.com/vinteo/starbase-ships).
 
+[![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
+
 ## Designed by EGOTech
 
 ![EGOTech](./website/static/egotech/logos/egotech_logo_light.png)
