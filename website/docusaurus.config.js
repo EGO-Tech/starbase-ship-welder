@@ -86,6 +86,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://discord.gg/BKwVGvncmN',
+            label: 'Discord',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -128,6 +133,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'EGOTech Discord',
+                href: 'https://discord.gg/BKwVGvncmN',
+              },
               {
                 label: 'FREE Ship Blueprints',
                 href: 'https://github.com/vinteo/starbase-ships',

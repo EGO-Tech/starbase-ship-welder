@@ -47,6 +47,8 @@ The base ship has the following features:
 
 ## Providing Feedback
 
+[![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
+
 I can be found in-game as Egomaniac and on discord as vinteo#4211.
 
 Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/vinteo/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
@@ -64,4 +66,3 @@ This work is licensed under a
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg

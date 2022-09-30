@@ -24,7 +24,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Guide` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Approach` | Activates approach, flies ship towards target of `Range` to within 15m. |
-| `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
+| `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#auto-pilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP` & `NavC` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |
 | `SafeZone` | Whether current location is in the safe zone. |
@@ -109,7 +109,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
 | `Canopy` | Opens or closes glass canopy. |
 | `Door` | Opens or closes ship front door. |
 | `Service` | Opens or closes ship back service door. |
