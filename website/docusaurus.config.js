@@ -9,7 +9,7 @@ const config = {
   title: 'Welder by EGOTech - Modular Ship Framework for Starbase',
   tagline:
     'Blueprint and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte',
-  url: 'https://vinteo.github.io/',
+  url: 'https://ego-tech.github.io/',
   baseUrl: '/starbase-ship-welder/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   projectName: 'starbase-ship-welder',
-  organizationName: 'vinteo',
+  organizationName: 'EGO-Tech',
   deploymentBranch: 'gh-pages',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -72,7 +72,7 @@ const config = {
             label: 'Ships',
           },
           {
-            to: 'https://github.com/vinteo/starbase-ship-welder/raw/main/blueprints/framework/welder.zip',
+            to: 'https://github.com/ego-tech/starbase-ship-welder/raw/main/blueprints/framework/welder.zip',
             label: 'Download',
           },
           {
@@ -82,7 +82,7 @@ const config = {
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/vinteo/starbase-ship-welder',
+            href: 'https://github.com/ego-tech/starbase-ship-welder',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,7 +105,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/vinteo/starbase-ship-welder',
+                href: 'https://github.com/ego-tech/starbase-ship-welder',
               },
               {
                 label: 'License',
