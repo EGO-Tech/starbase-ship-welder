@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Welder by EGOTech - Modular Ship Framework for Starbase',
   tagline:
-    'Blueprint and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte',
+    'Blueprints and manual for Welder Modular Ship Framework for the game Starbase by Frozenbyte',
   url: 'https://ego-tech.github.io/',
   baseUrl: '/starbase-ship-welder/',
   onBrokenLinks: 'throw',
