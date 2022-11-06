@@ -15,7 +15,7 @@ The provided modules are meant to be a guide and provide basic examples of how m
 
 ## Download
 
-The blueprints for the ship and its modules are provided for free. Download the modules [here](https://github.com/vinteo/starbase-ship-welder/raw/main/blueprints/framework/welder.zip) or take a look at some prebuilt ships [here](/ships).
+The blueprints for the ship and its modules are provided for free. Download the modules [here](https://github.com/ego-tech/starbase-ship-welder/raw/main/blueprints/framework/welder.zip) or take a look at some prebuilt ships [here](/ships).
 
 ## Features
 
@@ -51,7 +51,7 @@ The base ship has the following features:
 
 I can be found in-game as Egomaniac and on discord as vinteo#4211.
 
-Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/vinteo/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
+Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/ego-tech/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
 
 I would also love for the communiity to create modules so if you do please share them!
 

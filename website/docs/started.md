@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Download
 
-Download the zip file containing the blueprint files for the modules [here](https://github.com/vinteo/starbase-ship-welder/raw/main/blueprints/framework/welder.zip).
+Download the zip file containing the blueprint files for the modules [here](https://github.com/EGO-Tech/starbase-ship-welder/raw/main/blueprints/framework/welder.zip).
 
 ## Loading the Modules
 
