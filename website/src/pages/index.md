@@ -49,7 +49,7 @@ The base ship has the following features:
 
 [![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
 
-I can be found in-game as Egomaniac and on discord as vinteo#4211.
+I can be found in-game as Egomaniac and on discord as @vinteo81 (vinteo#4211).
 
 Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/ego-tech/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
 

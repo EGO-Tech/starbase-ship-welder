@@ -19,7 +19,7 @@ Check out various other free blueprints for Starbase [here](https://github.com/v
 
 ## Providing Feedback
 
-I can be found in-game as Egomaniac and on discord as vinteo#4211.
+I can be found in-game as Egomaniac and on discord as @vinteo81 (vinteo#4211).
 
 Feel free to contact me and provide feedback or if you need help, use the GitHub [issues](https://github.com/ego-tech/starbase-ship-welder/issues). Pull requests are also welcomed for scripts changes/fixes.
 
